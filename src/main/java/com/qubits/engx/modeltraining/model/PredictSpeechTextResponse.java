@@ -1,4 +1,4 @@
-package com.epam.engx.modeltraining.model;
+package com.qubits.engx.modeltraining.model;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,4 +1,4 @@
-package com.epam.engx.utils;
+package com.qubits.engx.utils;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
