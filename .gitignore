@@ -1,0 +1,40 @@
+/target
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
+!/.mvn/wrapper/maven-wrapper.jar
+
+#Ignore vscode
+.vscode
+
+# Ignore Eclipse project files
+.project
+.settings
+.classpath
+.factorypath
+.java-version
+
+# Ignore IDEA project files
+*.ipr
+*.iml
+*.iws
+.idea/
+
+# Ignore editor temporary files
+*.swp
+~*
+*~
+.*~
+
+# Ignore OS hidden files
+.DS_Store
+
+# Ignore Vault secrets file
+*secrets.yaml

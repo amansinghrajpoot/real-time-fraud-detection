@@ -1,0 +1,15 @@
+server:
+  port: 8989
+
+openapi:
+  apiKey: f855aa32fcf842fe84a540df1e8c7e99
+  model: text-embedding-ada-002
+  url: https://aoai-engx-hack23.openai.azure.com
+
+training:
+  filename: "cleaned-spam.csv"
+  outputFilePath: "src/main/java/com/epam/engx/savedmodel/model.json"
+  batchSize: 1
+
+classifier:
+  threshold: 0.5030
