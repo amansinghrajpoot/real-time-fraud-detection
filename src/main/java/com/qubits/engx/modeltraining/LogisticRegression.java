@@ -1,8 +1,8 @@
-package com.epam.engx.modeltraining;
+package com.qubits.engx.modeltraining;
 
-import com.epam.engx.embeddings.EmbeddingsHandler;
-import com.epam.engx.utils.ApplicationConstants;
-import com.epam.engx.utils.CSVFileReader;
+import com.qubits.engx.embeddings.EmbeddingsHandler;
+import com.qubits.engx.utils.ApplicationConstants;
+import com.qubits.engx.utils.CSVFileReader;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.opencsv.CSVReader;

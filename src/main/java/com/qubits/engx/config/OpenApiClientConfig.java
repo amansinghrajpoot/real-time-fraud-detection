@@ -1,10 +1,10 @@
-package com.epam.engx.config;
+package com.qubits.engx.config;
 
 import com.azure.ai.openai.OpenAIClient;
 import com.azure.ai.openai.OpenAIClientBuilder;
 import com.azure.ai.openai.OpenAIServiceVersion;
 import com.azure.core.credential.AzureKeyCredential;
-import com.epam.engx.utils.OpenAPIData;
+import com.qubits.engx.utils.OpenAPIData;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

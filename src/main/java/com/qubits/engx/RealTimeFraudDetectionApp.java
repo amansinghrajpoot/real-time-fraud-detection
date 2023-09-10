@@ -1,4 +1,4 @@
-package com.epam.engx;
+package com.qubits.engx;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

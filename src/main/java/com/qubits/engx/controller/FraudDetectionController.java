@@ -1,11 +1,11 @@
-package com.epam.engx.controller;
+package com.qubits.engx.controller;
 
-import com.epam.engx.classifier.LogisticClassifier;
-import com.epam.engx.embeddings.EmbeddingsHandler;
-import com.epam.engx.modeltraining.LogisticRegression;
-import com.epam.engx.modeltraining.model.PredictSpeechTextRequest;
-import com.epam.engx.modeltraining.model.PredictSpeechTextResponse;
-import com.epam.engx.modeltraining.model.TrainingRequest;
+import com.qubits.engx.classifier.LogisticClassifier;
+import com.qubits.engx.embeddings.EmbeddingsHandler;
+import com.qubits.engx.modeltraining.LogisticRegression;
+import com.qubits.engx.modeltraining.model.PredictSpeechTextRequest;
+import com.qubits.engx.modeltraining.model.PredictSpeechTextResponse;
+import com.qubits.engx.modeltraining.model.TrainingRequest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

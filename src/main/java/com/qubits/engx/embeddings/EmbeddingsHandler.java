@@ -1,8 +1,8 @@
-package com.epam.engx.embeddings;
+package com.qubits.engx.embeddings;
 
 import com.azure.ai.openai.OpenAIClient;
 import com.azure.ai.openai.models.EmbeddingsOptions;
-import com.epam.engx.utils.OpenAPIData;
+import com.qubits.engx.utils.OpenAPIData;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.Collections;

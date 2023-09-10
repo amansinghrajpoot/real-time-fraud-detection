@@ -1,6 +1,6 @@
-package com.epam.engx.classifier;
+package com.qubits.engx.classifier;
 
-import com.epam.engx.utils.ApplicationConstants;
+import com.qubits.engx.utils.ApplicationConstants;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Value;

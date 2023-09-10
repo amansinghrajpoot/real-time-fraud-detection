@@ -1,4 +1,4 @@
-package com.epam.engx.config;
+package com.qubits.engx.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.context.annotation.Bean;
