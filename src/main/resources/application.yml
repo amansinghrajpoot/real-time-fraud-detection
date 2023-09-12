@@ -8,7 +8,7 @@ openapi:
 
 training:
   filename: "cleaned-spam.csv"
-  outputFilePath: "src/main/java/com/epam/engx/savedmodel/model.json"
+  outputFilePath: "src/main/java/com/qubits/engx/savedmodel/model.json"
   batchSize: 1
 
 classifier:
