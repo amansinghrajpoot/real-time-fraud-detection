@@ -139,6 +139,11 @@ public class LogisticRegression {
 
         File jsonFile = new File(outputFilePath);
 
+        if (!jsonFile.exists()) {
+            jsonFile.getParentFile().mkdirs();
+            jsonFile.createNewFile();
+        }
+
         objectMapper.writeValue(jsonFile, dataToAppend);
 
         System.out.println("Appended data: " + objectMapper.writeValueAsString(dataToAppend));
