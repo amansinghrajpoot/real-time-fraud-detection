@@ -25,7 +25,6 @@ public class ValidateCsvTrainingData {
         while ((record = csvReader.readNext()) != null) {
             lineNumber++; // Increment the line number
 
-
             if (record.length != 2) {
                 throw new IllegalArgumentException("Invalid number of columns at line " + lineNumber +
                         ": Each row should have exactly two columns.");
