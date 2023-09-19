@@ -1,6 +1,7 @@
 package com.qubits.engx.modeltraining;
 
 import com.qubits.engx.embeddings.EmbeddingsHandler;
+import com.qubits.engx.modeltraining.validate.ValidateCsvTrainingData;
 import com.qubits.engx.utils.ApplicationConstants;
 import com.qubits.engx.utils.CSVFileReader;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -60,6 +61,8 @@ public class LogisticRegression {
         int batchCount = 0;
         int lineCount = 0;
         double[] gradientSum = new double[weights.length];
+
+        new ValidateCsvTrainingData().validateCSV(trainingFilename);
 
         for( int n = 0; n < iterations; n++){
             CSVReader csvReader = CSVFileReader.getCSVReader(trainingFilename);
